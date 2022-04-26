@@ -1,0 +1,35 @@
+.main-header {
+    text-align: center;
+    background-color: blueviolet;
+    color: antiquewhite;
+    padding: 10px;
+}
+
+.main {
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+}
+
+.post {
+    background-color: chocolate;
+    float: left;
+    width: 33%;
+    margin: auto;
+    border: none;
+}
+
+.asi {
+    background-color: cadetblue;
+    padding-top: 0;
+    border: 4px wheat solid;
+    color: darkred;
+    padding: 30px;
+}
+
+.main-footer {
+    text-align: center;
+    background-color: blue;
+    font-size: 18px;
+    padding: 4px;
+}

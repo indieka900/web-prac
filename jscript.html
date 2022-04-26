@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript">
+        function sayHello() {
+            //alert("Hello World!")
+            var1 = 10
+            var2 = 20
+            var3 = var1 + var2
+            alert("The answer is " + var3)
+        }
+
+        function explain() {
+            alert("displays 100 if a > b if not it prints 200")
+        }
+    </script>
+</head>
+<br>
+
+<body>
+    <script type="text/javascript">
+        //document.write("Hello World!")
+        var a = 10;
+        var b = 20;
+        var c = true;
+        var d = false;
+        var e = 2; // Bit presentation 10
+        var f = 3; // Bit presentation 11
+        var g = "String"
+        var linebreak = "<br />";
+        //Arthmetic operators
+        document.write("a + b = ");
+        result = a + b;
+        document.write(result);
+        document.write(linebreak);
+        document.write("a / b = ");
+        result = a / b;
+        document.write(result);
+        document.write(linebreak);
+        //Logical operators
+        document.write("(c && d) => ");
+        result = (c && d); //Logical AND
+        document.write(result);
+        document.write(linebreak);
+        document.write("(c || d) => ");
+        result = (c || d); // Logical OR
+        document.write(result);
+        //Bitwise operators
+        document.write(linebreak);
+        document.write("(e & f) => ");
+        result = (e & f); //performs AND operation on each bit 
+        document.write(result);
+        document.write(linebreak);
+        document.write("(e | f) => ");
+        result = (e | f); // performs OR operations
+        document.write(result);
+        document.write(linebreak);
+        document.write("(e ^ f) => ");
+        result = (e ^ f); //It perform XOR
+        document.write(result);
+        //conditional operator(?:)
+        document.write(linebreak);
+        document.write("((a > b) ? 100 : 200) => ");
+        result = ((a > b) ? 100 : 200);
+        document.write(result);
+    </script>
+    <br> Click here for explanation
+    <br>
+    <input type="button" onclick="explain()" value="explanation">
+    <br>
+    <script type="text/javascript">
+        var a = 50;
+        var g = "Joseph";
+        result = (typeof a == "string" ? "A is string" : "A is numeric")
+        document.write("Result => ");
+        document.write(result);
+        document.write(linebreak);
+        result = (typeof g == "string" ? "G is string" : "G is numeric")
+        document.write("Result => ")
+        document.write(result)
+    </script>
+    <br> Click here for the result
+    <br>
+    <input type="button" onclick="sayHello()" value="say Hello">
+    <br>
+    <script type="text/javascript" src="code.js"></script>
+    <br>
+    <script type="text/javascript">
+        var myVar = "global"; //declairing a global variable
+        function check() {
+            var myVar = "local"; //declairing a local variable
+            //document.write(myVar);
+        }
+        check()
+    </script>
+    <script type="text/javascript">
+    </script>
+
+</body>
+
+</html>

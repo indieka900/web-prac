@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        //var age = prompt("How old are you? ", 1);
+        //document.write(age); // prints the value inserted
+        //result = window.confirm("Are you sure this is your age? ");
+        var canvas = document.createElement('canvas');
+        //building a canvas to hold imabe pixel info
+        canvas.width = 500;
+        canvas.hieght = 250;
+        var ctx = canvas.getContext('2d'); //context for the canvas
+        //properties to the text
+        ctx.font = '30px Cursive';
+        ctx.fillText("Hello World", 50, 50);
+        //inserting the canvas element into the page to take effect
+        //document.body.appendChild(canvas);
+        //Using SVG
+        //Creating SVG element container with dimension
+        var svg = document.createElementNS(
+            'https:http://www.w3.org/2000/svg', 'svg'
+        );
+        svg.widht = 500;
+        svg.hieght = 50;
+        //building a text element with the desired positioning and font x-tics
+        var text = document.createElementNS(
+            'https:http://www.w3.org/2000/svg', 'text'
+        );
+        text.setAttribute('x', '0');
+        text.setAttribute('y', '50');
+        //text.style.fontFamily = 'Times New Roman';
+        //text.style.fontSize = '50';
+        //add the actual text to display to the textElent
+        text.textContent = 'Welcome to Javascript.js!';
+        //svg.appendChild(text);
+        document.body.appendChild(svg);
+    </script>
+    <br>
+    <script type="text/javascript">
+        var linebreak = "<br />"
+            //Arrays
+        var myArray = []
+        var randomVariables = [2, "any type works", undefined, null, true, 2.51];
+        document.write(randomVariables[1]); //indexing
+        //window.alert(randomVariables[5])
+        //window.alert(isNaN(1));
+        //window.alert(isNaN("jose"));
+        document.write(linebreak);
+    </script>
+    <script>
+        var now = new Date();
+        //now.toString()
+        document.write(now)
+    </script>
+    <br>
+    <script>
+        //Ternary operators ca be used instead of if else 
+        var animal = 'kitty';
+        var result = (animal === 'kitty') ? 'cute' : 'still nice'
+            //document.write(result) // prints cute cause animal is kitty
+        var a = 0;
+        var str = 'not a'
+        var b = '';
+        var foo = 2
+        var bar = 3
+        b = a === 0 ? (a = 1, str += ' test') : (a = 2);
+        document.write(b)
+            //if else statements
+        if (foo) {
+            if (bar) {
+                1
+            } else {
+                2
+            }
+        } else {
+            3
+        }
+        //return statements
+        var animal = 'kitty';
+        //return (animal === 'kitty') ? 'meow'
+        // switch statements
+        var value = 1;
+        switch (value) {
+            case 1:
+                console.log('I will always run');
+                break;
+            case 2:
+                console.log('I will never run');
+                break;
+            default:
+                console.log('I will run if I decide to');
+        }
+
+        function john() {
+            return 'John';
+        }
+
+        function joseph() {
+            return 'Joseph';
+        }
+        switch (name) {
+            case john(): //if name  == "John"
+                console.log('My name is John')
+                break;
+            case 'ja' + 'ne': //concentrates the string together
+                console.log('My name is jane');
+                break;
+            case john() + ' and ' + joseph() + ' are friends':
+                console.log("These are combination of functions");
+                break;
+        }
+        var x = "c";
+        switch (x) {
+            case "a":
+            case "b":
+            case "c":
+                console.log('Either a, b or c was selected.');
+                break;
+            case "d":
+                console.log('Only d was selected.')
+                break;
+            default:
+                console.log('No case was selected.');
+                break;
+        }
+        // if else statements
+        var i = 0;
+        if (i < 1) {
+            console.log('i is smaller than 1')
+        } else if (i > 1) {
+            console.log('i is larger than 2.')
+        } else {
+            console.log('i is equal to 1');
+        }
+    </script>
+    <br>
+    <h3>This is a HTML page </h3>
+</body>
+
+</html>

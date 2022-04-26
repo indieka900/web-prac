@@ -1,0 +1,77 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.05em;
+}
+
+.head {
+    background-color: aqua;
+}
+
+.head p {
+    background-color: aqua;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.head strong {
+    background-color: aqua;
+}
+
+.head label {
+    float: left;
+    width: 33.333%;
+    background-color: aqua;
+    list-style: none;
+    margin: none;
+}
+
+.dash {
+    background-color: cornflowerblue;
+    color: blueviolet;
+    font-size: 12px;
+    padding: 2px;
+}
+
+.fee {
+    border: 3px;
+}
+
+.fee1 {
+    background-color: orangered;
+    float: left;
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+    border: 3px;
+}
+
+.fee2 {
+    background-color: green;
+    float: left;
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+    border: 3px;
+}
+
+.fee3 {
+    display: inline-block;
+    background-color: skyblue;
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+    border: 3px;
+}
+
+.profile {
+    border: 3px;
+    background-color: black;
+    width: 60%;
+    color: azure;
+}
+
+.pic {
+    margin: auto;
+    text-align: center;
+}

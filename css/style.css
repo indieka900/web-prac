@@ -1,0 +1,172 @@
+/*
+* {
+    margin: 0;
+    padding: 0;
+}
+*/
+
+body {
+    background-color: darkgray;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    /*same as the above*/
+    font: normal 16px Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: fuchsia;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: greenyellow;
+}
+
+a:visited {}
+
+.button {
+    background-color: deeppink;
+    color: whitesmoke;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: navy;
+    color: red;
+}
+
+.box-1 {
+    background-color: burlywood;
+    color: crimson;
+    border: 5px rebeccapurple solid;
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+    border: 5px rebeccapurple solid;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.box-1 h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.box-2 {
+    border: 4px dotted cornflowerblue;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.catagories {
+    border: 1px black solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.catagories h3 {
+    text-align: center;
+}
+
+.catagories ul {
+    padding: 0;
+    list-style: square;
+    list-style: none;
+}
+
+.catagories li {
+    padding-bottom: 6px;
+    border-bottom: dotted 1px purple;
+}
+
+.myform {
+    padding: 20px;
+}
+
+.form-group {
+    padding-bottom: 15px;
+}
+
+.myform {
+    display: block;
+    float: left;
+    border: 5px burlywood;
+    width: 50%;
+    margin-right: auto;
+    margin-left: 40px;
+}
+
+.myform input[type="text"],
+.myform textarea {
+    padding: 8px;
+    width: 100%;
+}
+
+.list {
+    float: left;
+    width: 25%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    /*border: 3px blue solid;*/
+    padding-top: 20px;
+    margin: auto;
+}
+
+.block ul {
+    list-style: none;
+}
+
+.block h3 {
+    text-decoration: underline;
+    display: inline;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.tt {
+    border: 5px palevioletred solid;
+    padding: 3%;
+    width: 80%;
+    margin: auto;
+    border-radius: 15px;
+    background-color: cadetblue;
+}
+
+.tt td {
+    padding: 5px;
+    border-bottom: dotted 1px purple;
+    border-left: dotted 1px purple;
+    border-right: dotted 1px purple;
+}
+
+.tt th {
+    border: 2px blueviolet solid;
+    padding: 5px;
+}
+
+.back {
+    background-color: aqua;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 20px;
+    width: auto;
+    margin-left: 70%;
+}
